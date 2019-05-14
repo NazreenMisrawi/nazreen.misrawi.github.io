@@ -1,0 +1,31 @@
+/* Theme */
+
+:root {
+	--main-bg-color: #090c02;
+	--main-txt-color: #e6eed6;
+	--main-icon-fill: #e6eed6;
+	--ash-grey: #bbc5aa;
+	--bone: #dde2c6;
+	--main-accent-color: #a72608;
+}
+
+body {
+	background-image: url("../../images/background/bg.jpg");
+	background-repeat: repeat;
+}
+
+main {
+	/* background: #303F9F;
+	color: #FAFAFA; */
+	background: var(--main-bg-color);
+	opacity: 0.8;
+	color: var(--main-txt-color);
+}
+
+.icons-social a {
+	color: var(--main-txt-color);
+}
+
+.icons-social a svg path {
+	fill: var(--main-icon-fill);
+}

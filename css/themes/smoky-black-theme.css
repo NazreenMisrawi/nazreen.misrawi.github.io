@@ -11,14 +11,8 @@
 
 body {
 	background-image: url("../../images/background/bg.jpg");
+	background-color: var(--main-bg-color);
 	background-repeat: repeat;
-}
-
-main {
-	/* background: #303F9F;
-	color: #FAFAFA; */
-	background: var(--main-bg-color);
-	opacity: 0.8;
 	color: var(--main-txt-color);
 }
 

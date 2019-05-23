@@ -117,27 +117,6 @@ main {
 	width: 350px;
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
-	.photo {
-		grid-area: "Photo";
-		height: auto;
-		width: 200px;
-	}
-
-	.content {
-		grid-area: "Content";
-		margin-top: 2vh;
-		margin-left: 5vw;
-		text-align: left;
-		border: 1px solid black;
-		min-width: 100vw;
-		max-width: 100vw;
-		height: auto;
-
-		margin-bottom: 2vh;
-	}
-}
-
 img {
 	border-radius: 10px;
 	padding: 5px;
@@ -463,5 +442,26 @@ textarea::-webkit-input-placeholder {
 	100% {
 		-webkit-transform: scale(1);
 		transform: scale(1);
+	}
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+	.photo {
+		grid-area: "Photo";
+		height: auto;
+		width: 200px;
+	}
+
+	.content {
+		grid-area: "Content";
+		margin-top: 2vh;
+		margin-left: 5vw;
+		text-align: left;
+		border: 1px solid black;
+		min-width: 100vw;
+		max-width: 100vw;
+		height: auto;
+
+		margin-bottom: 2vh;
 	}
 }

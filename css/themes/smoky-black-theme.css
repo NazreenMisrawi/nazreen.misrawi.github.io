@@ -43,6 +43,10 @@ footer {
 	background-image: url("../../images/background/bg.jpg");
 }
 
+.nav {
+	background-image: url("../../images/background/bg.jpg");
+}
+
 .content {
 	background-color: var(--bone);
 	color: var(--main-bg-color);

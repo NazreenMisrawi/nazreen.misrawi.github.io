@@ -455,13 +455,9 @@ textarea::-webkit-input-placeholder {
 	.content {
 		grid-area: "Content";
 		margin-top: 2vh;
-		margin-left: 5vw;
 		text-align: left;
 		border: 1px solid black;
-		min-width: 100vw;
-		max-width: 100vw;
 		height: auto;
-
 		margin-bottom: 2vh;
 	}
 }

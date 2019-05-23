@@ -65,6 +65,10 @@ main {
 	text-align: center;
 }
 
+.center {
+	justify-content: center;
+}
+
 .main-grid {
 	grid-template-areas: "About" "Content" "Contact";
 	min-height: 100vh;

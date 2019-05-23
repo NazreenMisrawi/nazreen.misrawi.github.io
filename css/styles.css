@@ -121,7 +121,7 @@ main {
 	.photo {
 		grid-area: "Photo";
 		height: auto;
-		width: 350px;
+		width: 50px;
 	}
 }
 

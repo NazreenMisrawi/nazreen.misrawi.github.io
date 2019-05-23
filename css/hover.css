@@ -1922,6 +1922,7 @@
 	left: 0;
 	right: 0;
 	background: #a72608;
+	border-radius: 10px;
 	-webkit-transform: scaleX(0);
 	transform: scaleX(0);
 	-webkit-transform-origin: 50%;

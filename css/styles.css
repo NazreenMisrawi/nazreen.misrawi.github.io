@@ -451,7 +451,9 @@ textarea::-webkit-input-placeholder {
 		height: auto;
 		width: 200px;
 	}
+}
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
 	.content {
 		grid-area: "Content";
 		margin-top: 2vh;

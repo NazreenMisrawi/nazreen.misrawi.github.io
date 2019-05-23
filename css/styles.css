@@ -123,6 +123,19 @@ main {
 		height: auto;
 		width: 200px;
 	}
+
+	.content {
+		grid-area: "Content";
+		margin-top: 2vh;
+		margin-left: 5vw;
+		text-align: left;
+		border: 1px solid black;
+		min-width: 90vw;
+		max-width: 90vw;
+		height: auto;
+		padding: 30px;
+		margin-bottom: 2vh;
+	}
 }
 
 img {

@@ -46,6 +46,7 @@ footer {
 .content {
 	background-color: var(--bone);
 	color: var(--main-bg-color);
+	-webkit-box-shadow: 1px 1px 5px;
 	box-shadow: 1px 1px 5px;
 }
 

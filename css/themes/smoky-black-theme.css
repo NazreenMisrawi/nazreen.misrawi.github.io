@@ -6,20 +6,79 @@
 	--main-icon-fill: #e6eed6;
 	--ash-grey: #bbc5aa;
 	--bone: #dde2c6;
+	--magic-mint: #a2e8dd;
 	--main-accent-color: #a72608;
 }
 
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #d8d8d8;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
 body {
+	background-color: var(--ash-grey);
+	color: var(--main-txt-color);
+}
+
+footer {
+	color: var(--main-bg-color);
+}
+
+.about-banner {
 	background-image: url("../../images/background/bg.jpg");
+}
+
+.content {
+	background-color: var(--bone);
+	color: var(--main-bg-color);
+	box-shadow: 1px 1px 5px;
+}
+
+.contact {
 	background-color: var(--main-bg-color);
+}
+
+a {
+	text-decoration: none;
+	color: var(--ash-grey);
+}
+
+a:hover {
+	color: var(--main-accent-color);
+}
+
+.landing-page {
+	background-image: url("../../images/background/bg.jpg");
 	background-repeat: repeat;
+}
+
+.icons-social-2 a {
 	color: var(--main-txt-color);
 }
 
-.icons-social a {
+.icons-social-2 a svg path {
+	fill: var(--main-icon-fill);
+}
+
+.icons-social-3 a {
 	color: var(--main-txt-color);
 }
 
-.icons-social a svg path {
+.icons-social-3 a svg path {
 	fill: var(--main-icon-fill);
 }

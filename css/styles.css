@@ -112,7 +112,8 @@ main {
 .photo {
 	grid-area: "Photo";
 	margin-left: 15vw;
-	margin-top: .5vh;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
 	height: auto;
 	width: 350px;
 }
@@ -128,7 +129,9 @@ img {
 }
 
 footer {
-	margin-top: 1.2em;
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }
 
 .info {
@@ -199,14 +202,14 @@ input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="text"]:hover,
 input[type="email"]:hover {
-	width: 21vw;
+	/* width: 21vw; */
 	border: 2px solid var(--magic-mint);
 }
 
 textarea:focus,
 textarea:hover {
-	width: 21vw;
-	height: 30vh;
+	/* width: 21vw; */
+	/* height: 30vh; */
 	border: 2px solid var(--magic-mint);
 }
 
@@ -219,7 +222,7 @@ input {
 	outline: none;
 	color: var(--bone);
 	border-radius: 10px;
-	width: 10vw;
+	width: 21vw;
 	height: 5vh;
 	-webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
 	-webkit-transition: width .5s, border .5s;
@@ -234,8 +237,8 @@ textarea {
 	font-size: 1.1em;
 	padding: 14px 10px;
 	border-radius: 10px;
-	width: 10vw;
-	height: 15vh;
+	width: 21vw;
+	height: 30vh;
 	outline: none;
 	-webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
 	-webkit-transition: width .5s, height .5s, border .5s;
@@ -249,6 +252,7 @@ textarea::-webkit-input-placeholder {
 }
 
 .contact1 {
+	position: relative;
 	grid-area: "contact1";
 	text-align: left;
 	margin-left: 16vw;

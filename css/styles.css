@@ -124,8 +124,8 @@ img {
 	border: 2px ridge var(--ash-grey);
 	background-color: var(--main-bg-color);
 	border-radius: 10px;
-	-webkit-filter: grayscale(60%) sepia(30%); /* Safari 6.0 - 9.0 */
-	filter: grayscale(60%) sepia(30%);
+	-webkit-filter: grayscale(30%) sepia(30%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(30%) sepia(30%);
 }
 
 footer {

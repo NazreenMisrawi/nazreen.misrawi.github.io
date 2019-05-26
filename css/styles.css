@@ -64,7 +64,7 @@ main {
 	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
 	flex-direction: column;
-	min-height: 95vh;
+	min-height: 100vh;
 	max-height: 100vh;
 	padding: 0;
 	text-align: center;
@@ -361,8 +361,7 @@ textarea::-webkit-input-placeholder {
 
 .scale-up-center {
 	position: absolute;
-	top: 20vh;
-	left: 30.5vw;
+	left: 30%;
 }
 
 .scale-up-center > .intro {

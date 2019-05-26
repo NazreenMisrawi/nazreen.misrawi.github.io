@@ -37,6 +37,13 @@
 	background: var(--magic-mint); /* Gecko Browsers */
 }
 
+.emboss::selection {
+	color: var(--main-bg-color); /* WebKit/Blink Browsers */
+}
+.emboss::-moz-selection {
+	color: var(--main-bg-color); /* Gecko Browsers */
+}
+
 body {
 	background-color: var(--ash-grey);
 	color: var(--main-txt-color);

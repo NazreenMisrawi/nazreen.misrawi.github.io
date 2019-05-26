@@ -30,6 +30,13 @@
 	background: #555;
 }
 
+::selection {
+	background: var(--magic-mint); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+	background: var(--magic-mint); /* Gecko Browsers */
+}
+
 body {
 	background-color: var(--ash-grey);
 	color: var(--main-txt-color);

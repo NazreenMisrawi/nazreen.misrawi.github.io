@@ -1,15 +1,5 @@
 /* Typography */
 
-:root {
-	--main-bg-color: #090c02;
-	--main-txt-color: #e6eed6;
-	--main-icon-fill: #e6eed6;
-	--ash-grey: #bbc5aa;
-	--bone: #dde2c6;
-	--magic-mint: #a2e8dd;
-	--main-accent-color: #a72608;
-}
-
 html {
 	font-family: 'PT Serif', serif;
 }
@@ -132,6 +122,7 @@ footer {
 	position: absolute;
 	bottom: 0;
 	left: 0;
+	font-size: .8em;
 }
 
 .info {
@@ -198,22 +189,14 @@ h2 {
 	grid-template-areas: "contact1 contact2";
 }
 
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="text"]:hover,
-input[type="email"]:hover {
+.form-input:focus,
+.form-input:hover {
 	/* width: 21vw; */
 	border: 2px solid var(--magic-mint);
+	transform: translateY(-1vh);
 }
 
-textarea:focus,
-textarea:hover {
-	/* width: 21vw; */
-	/* height: 30vh; */
-	border: 2px solid var(--magic-mint);
-}
-
-input {
+.form-input {
 	text-align: center;
 	font-size: 1em;
 	background: none;
@@ -224,31 +207,14 @@ input {
 	border-radius: 10px;
 	width: 21vw;
 	height: 5vh;
-	-webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
-	-webkit-transition: width .5s, border .5s;
-	-o-transition: width .5s, border .5s;
-	transition: width .5s, border .5s;
+	-webkit-transition: border .5s, transform .5s;
+	-o-transition: border .5s, transform .5s;
+	transition: border .5s, transform .5s;
 }
 
-textarea {
-	background: none;
-	border: 2px solid var(--ash-grey);
-	color: var(--bone);
-	font-size: 1.1em;
-	padding: 14px 10px;
-	border-radius: 10px;
+.form-textarea {
 	width: 21vw;
 	height: 30vh;
-	outline: none;
-	-webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
-	-webkit-transition: width .5s, height .5s, border .5s;
-	-o-transition: width .5s, height .5s, border .5s;
-	transition: width .5s, height .5s, border .5s;
-}
-
-textarea::-webkit-input-placeholder {
-	/* Chrome/Opera/Safari */
-	text-align: center;
 }
 
 .contact1 {
